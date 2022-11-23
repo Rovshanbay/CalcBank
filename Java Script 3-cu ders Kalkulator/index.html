@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+    <link rel="stylesheet" href="assest/StyleCss/Style.css">
+</head>
+<body>
+
+
+    <div class="calculator">
+        <form action="">
+            <p>Məbləğ</p>
+            <input id="amount" type="text">
+            <p>Faiz</p>
+            <input id="prepo" type="text">
+            <p>Ay</p>
+            <select name="ay" id="month">
+                <option value="12">12</option>
+                <option value="24">24</option>
+                <option value="36">36</option>
+                <option value="48">48</option>
+            </select>
+            <input onclick="Calc()" type="button" id="btn" value="calculate">
+        </form>
+        <h1 id="am">Məbləğ: <span id="amo"></span></h1>
+        <h1 id="ayy">aylıq: <span id="ayylq"></span></h1>
+    </div>
+
+
+
+    <script src="assest/Js/app.js"></script>
+</body>
+</html>
